@@ -1,0 +1,102 @@
+.payment-view-container {
+    margin: 20px;
+    background-color: rgba(246, 249, 252, 0.5);
+  }
+  
+  .filters {
+    margin-bottom: 10px;
+    color: #3498db;
+  }
+  .paymentview-head{
+    background-color: #3498db;
+
+  }
+  .payment-table-container {
+    max-height: 300px;
+    overflow-y: auto;
+    /* background-color: #3498db; */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+ 
+  .payment-view-top {
+    cursor: pointer;
+    background-color: #3498db;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+  
+  .status-success {
+    color: green;
+  }
+  
+  .status-pending {
+    color: orange;
+  }
+  
+  .status-failed {
+    color: red;
+  }
+  
+  .pagination {
+    margin-top: 10px;
+    width: fit-content;
+    padding-left: 130vh;
+  }
+  
+  .paymentview_td{
+    color:aliceblue;
+  }
+  .paymentview_button{
+    color: #3498db;
+  }
+  paymentview-button button:hover{
+    background-color: #3498db;
+  }
+  
+  .active {
+    background-color:#3498db;
+    color: white;
+  }
+  
+  .details-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .details-modal h2 {
+    margin-bottom: 10px;
+  }
+  
+  .details-modal p {
+    margin-bottom: 5px;
+  }
+  
+  .details-modal button {
+    cursor: pointer;
+    padding: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+  
+  .details-modal button:hover {
+    background-color: #45a049;
+  }

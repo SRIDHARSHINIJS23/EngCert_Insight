@@ -1,0 +1,90 @@
+
+.wrapper1 {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .payment {
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+    padding: 7px;
+    width: 400px;
+    text-align: center;
+    height: 80vh; /* 80% of the viewport height */
+    overflow-y: auto; /* Added overflow-y property for vertical scrolling */
+  }
+  
+  .payment h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input:focus {
+    border-color: #3498db;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  
+  .card {
+    position: relative;
+  }
+  
+  .space {
+    margin-bottom: 20px;
+  }
+  
+  .card-grp {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card-item {
+    flex: 1;
+  }
+  
+  .btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #3498db;
+  }
+  
+  /* Add any additional styling as needed */
+  

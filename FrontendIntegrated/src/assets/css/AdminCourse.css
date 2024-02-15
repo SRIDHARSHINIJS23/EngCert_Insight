@@ -1,0 +1,151 @@
+/* ManageCourses.css */
+.manage-courses-whole {
+    display: flex;
+  }
+  
+  .manage-courses-container {
+    overflow-y: auto;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 100px;
+    min-width: 500px;
+    background-color: rgba(246, 249, 300, 0.3); /* Slightly darker background */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-courses-container h1 {
+    font-size: 32px; /* Slightly larger font size */
+    color: #2c3e50; /* Darker text color */
+    margin-bottom: 20px;
+  }
+  
+  .manage-courses-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .manage-course-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* Lighter background color */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .manage-course-item:hover {
+    transform: scale(1.02); /* Slightly larger scale on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .manage-course-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .manage-course-actions button {
+    padding: 12px 24px; /* Larger padding */
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px; /* Larger font size */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .manage-course-actions button.edit {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .manage-course-actions button.delete {
+    background-color: #3498db; /* Darker red color */
+    color: #fff;
+  }
+  
+  .manage-course-actions button:hover {
+    filter: brightness(90%);
+  }
+  
+  .manage-course-edit-popup {
+    overflow-y: auto;
+    height: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 15px; /* Reduced padding for a smaller height */
+    width: 700px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+  
+  .manage-course-edit-popup h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .manage-course-edit-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    width: 700px; /* Increased width to 400px */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .manage-course-edit-popup input,
+  .manage-course-edit-popup textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: block;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  .manage-course-edit-popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .manage-course-edit-popup-buttons button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .manage-course-edit-popup-buttons button.save {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .manage-course-edit-popup-buttons button.cancel {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .manage-course-edit-popup-buttons button:hover {
+    filter: brightness(90%);
+  }
+  .error {
+    color: #c0392b; /* Red color for errors */
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

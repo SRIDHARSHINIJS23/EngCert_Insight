@@ -1,0 +1,120 @@
+.total {
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container1 {
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: linear-gradient(to right, #66a6ff, #89f7fe); /* Updated background to a gradient */
+    margin: auto;
+    margin-top: 10%; /* Adjusted the top margin */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Added box shadow for a lifted look */
+  }
+  
+  .header1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 20px; /* Adjusted top margin for better spacing */
+  }
+  
+  .text1 {
+    color: #1e0449;
+    font-size: 28px; /* Increased font size */
+    font-weight: 700;
+  }
+  
+  .underline1 {
+    width: 50px;
+    height: 4px;
+    background: #9981bf;
+    border-radius: 9px;
+  }
+  
+  .inputs1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px; /* Adjusted top margin for better spacing */
+  }
+  
+  .input1 {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background: #f5f5f5; /* Lightened the background color */
+    border-radius: 10px; /* Increased border-radius for rounded corners */
+  }
+  
+  .input1 img {
+    margin: 0px 20px; /* Reduced margin for better alignment */
+  }
+  
+  .input1 input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #4d4d4d; /* Adjusted text color for better visibility */
+    font-size: 18px;
+  }
+  
+  .forget-password {
+    padding-left: 62px;
+    margin-top: 15px; /* Adjusted top margin for better spacing */
+    color: #797979;
+    font-size: 13px; /* Increased font size */
+  }
+  
+  .forget-password span {
+    color: #1e0449;
+    cursor: pointer;
+  }
+  
+  .submit-container1 {
+    display: flex;
+    gap: 20px; /* Reduced the gap between buttons */
+    margin: 40px auto; /* Adjusted margin for better spacing */
+  }
+  
+  .submit,
+  .gray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    font-size: 16px; /* Increased font size */
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px; /* Added border-radius for rounded buttons */
+  }
+  
+  .submit {
+    background: linear-gradient(to right, #4d097d, #aa076b); /* Gradient background for submit button */
+    color: #fff;
+  }
+  
+  .gray {
+    background: #eaeaea;
+    color: #676767;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 15px;
+    margin-top: 10px; /* Adjusted top margin for better spacing */
+  }
+  

@@ -1,0 +1,91 @@
+body {
+    box-shadow: #f9f6f6;
+    /* padding-top: 800px; */
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    height: 100vh;
+    background-image: url('https://plus.unsplash.com/premium_photo-1677567996070-68fa4181775a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxlYXJuaW5nfGVufDB8fDB8fHww');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: space-evenly;
+    overflow: hidden; /* Hide body scroll bar */
+  }
+  
+  #about-h {
+    background-color: rgba(246, 249, 300, 0.9);
+    max-width: 1300px; /* Increase the maximum width */
+    margin: 20px auto; /* Center the container */
+    padding: 90px;
+    font-family: 'Cursive', sans-serif;
+    font-size: 18px;
+    height: 90vh; /* Increase the height */
+    overflow-y: auto;
+  }
+  
+  
+  .buttons-container2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    width: 200px;
+    color: #fff;
+    background-color: #4caf50;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2e7d32;
+  }
+  
+  /* Adjust NavAdmin styling */
+  .NavAdmin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Adjust content margin-top to accommodate fixed navbar */
+  #about11 {
+    margin-top: 50px;
+  }
+  .contact-details {
+    margin-top: 20px;
+  }
+  
+  /* About.css */
+
+/* ... existing styles ... */
+
+.contact-details p {
+  color: #333;
+  margin: 10px 0;
+}
+
+.map {
+  margin-top: 20px;
+}
+
+.map a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+  

@@ -1,0 +1,66 @@
+.popup-buttons {
+    margin-top: 20px;
+  }
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .popup-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .popup-buttons button:hover {
+    background-color: #2980b9;
+  }
+.Coursedes-con1 {
+    padding: 5%;
+    background-color: #fff;
+    max-width: 1200px;
+    height: 710px;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .Coursedes-con2 {
+    color: #333;
+  }
+  
+  .Coursedes-container h1 {
+    color: #3498db;
+  }
+  
+  .Coursedes-con2 p {
+    line-height: 1.6;
+  }
+  
+  .buttons-container1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .buttons-container1 button {
+    margin-left: 10px;
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons-container1 button:hover {
+    background-color: #2980b9;
+  }
+  

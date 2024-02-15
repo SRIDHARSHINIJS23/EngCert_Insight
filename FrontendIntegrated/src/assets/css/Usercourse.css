@@ -1,0 +1,65 @@
+.user-course-container {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    overflow-y: auto;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 100px;
+    min-width: 500px;
+    background-color: rgba(246, 249, 300, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course22-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+  }
+  
+  .course22-item {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    margin: 10px; 
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 350px;
+  }
+  
+  .course22-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course22-item h2 {
+    color: #343a40;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .course22-item p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .enroll-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .enroll-button:hover {
+    background-color: #0056b3;
+  }

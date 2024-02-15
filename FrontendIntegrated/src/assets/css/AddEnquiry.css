@@ -1,0 +1,133 @@
+/* EnquiryPage.css */
+
+/* Your existing styles */
+
+.enquiry-page {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.enquiry-heading {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.enquiry-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.enquiry-table th, .enquiry-table td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+.enquiry-table th {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.enquiry-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.add-enquiry-button {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.add-enquiry-button button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Popup styles */
+.custom-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 80%; /* Adjust the width as needed */
+  max-width: 500px; /* Set a maximum width if needed */
+  text-align: center;
+}
+
+.add-enquiry-form {
+  max-width: 500px; /* Increase the max-width as needed */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #3498db;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.add-enquiry-form h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.add-enquiry-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.add-enquiry-form input,
+.add-enquiry-form textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #ecf0f1;
+  color: #333;
+}
+
+.add-enquiry-form textarea {
+  resize: vertical;
+  width: calc(100% - 24px); /* Adjust the value based on your input padding and margin */
+}
+
+.add-enquiry-form button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-enquiry-form button:hover {
+  background-color: #27ae60;
+}
+
+/* Add more styling as needed */

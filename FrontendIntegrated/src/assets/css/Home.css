@@ -1,0 +1,74 @@
+* {box-sizing:border-box}
+/* Common styles for the slideshow container */
+/* Common styles for the slideshow container */
+.my-slideshow-container {
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-right: 40px;
+  background-color: rgba(246, 249, 300, 0.5);
+  max-width: 1000px;
+  min-height: 80vh;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.my-slide {
+  display: none;
+}
+
+/* Active slide is displayed */
+.active {
+  display: block;
+}
+
+/* Caption text */
+.buttons-container {
+  font-size: larger;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  display: flex;
+  padding-left: 310px;
+}
+
+.my-numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* No dot styles since there are no dots */
+
+/* Fading animation */
+.my-fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from { opacity: .4 }
+  to { opacity: 1 }
+}
+
+.buttons-container button {
+  color: white;
+  background: indigo;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.buttons-container button:hover {
+  background: #4b0082;
+}
+
+/* Add this to your Home.css */
+.my-slide[contenteditable="true"] {
+  background-color: rgba(246, 249, 300, 0.5); /* Set background color during editing */
+}
